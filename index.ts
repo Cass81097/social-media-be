@@ -25,7 +25,7 @@ app.listen(port, () => {
 });
 
 const io = new Server({
-    cors: "http://192.168.5.22:3001",
+    cors: "http://localhost:3001",
 });
 
 let onlineUsers = [];
